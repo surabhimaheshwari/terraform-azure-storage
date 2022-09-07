@@ -1,0 +1,22 @@
+subscription_id                      = "282a67ff-c01c-4d5c-87f6-c4a21fefbbaf"
+resource_group_name1                 = "demo-rg"
+storage_account_name                 = "surabhidemosc"
+account_tier_type                    = "Standard"
+account_replication_type_name        = "LRS"
+allow_nested_items_to_be_public      = false
+enable_https_traffic_only            = true
+accountkind                          = "StorageV2"
+min_tls_version                      = "TLS1_2"
+managed_identity_type                = null
+managed_identity_ids                 = null
+blob_soft_delete_retention_days      = "7"
+container_soft_delete_retention_days = "7"
+enable_versioning                    = false
+last_access_time_enabled             = false
+change_feed_enabled                  = false
+network_rules = {
+  default_action = "Deny"
+  bypass         = ["None"]
+  ip_rules       = ["16.17.18.0/24"]
+  subnet_ids     = null
+}
